@@ -1,4 +1,4 @@
-var socket = io("https://dashboard.heroku.com/apps/demo-realtime-chat");
+var socket = io("https://demo-realtime-chat.herokuapp.com/");
 
 socket.on("server-send-failed-register", function(){
   alert("Sai Username (co nguoi da dang ki roi!!!)");
